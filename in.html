@@ -1,0 +1,130 @@
+<!doctype html>
+<!-- Declares the document type as HTML5 -->
+
+<html lang="en">
+<!-- Root element of the HTML page, language set to English -->
+
+  <head>
+    <!-- Head section contains meta info, links, and scripts -->
+
+    <meta charset="UTF-8" />
+    <!-- Sets character encoding to UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes the website responsive on all devices -->
+
+    <title>Document</title>
+    <!-- Title shown on browser tab -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linking external CSS file -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Tailwind CSS CDN -->
+  </head>
+
+  <body>
+    <!-- Body contains visible content -->
+
+    <h1>This is header-1 tag</h1>
+    <!-- Main heading -->
+
+    <h2>This is header-1 tag</h2>
+    <!-- Sub heading -->
+
+    <p class="font-bold text-2xl">This is paragraph</p>
+    <!-- Paragraph with Tailwind styling -->
+
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <!-- Link opens Google in new tab -->
+
+    <img src="" alt="" />
+    <!-- Image tag (src is empty currently) -->
+
+    <div class="outer-div">
+      <!-- Outer div container -->
+
+      <div class="inner-div">inner div</div>
+      <!-- Inner div inside outer div -->
+    </div>
+
+    <div id="content"></div>
+    <!-- Empty div for dynamic content via JS -->
+
+    <input
+      type="text"
+      placeholder="Enter your name"
+      name="input"
+      id="userinput"
+    />
+    <!-- Text input field -->
+
+    <p id="output"></p>
+    <!-- Paragraph to display output -->
+
+    <button id="btn">Click Me</button>
+    <!-- Button for click event -->
+
+    <p>Some changes</p>
+    <!-- Simple paragraph -->
+
+    <div class="h-[200px] w-[200px] bg-pink-500 items-end justify-start">
+      <!-- Pink box (200x200) -->
+
+      <div class="h-[50px] w-[50px] bg-blue-500"></div>
+      <!-- Blue box inside pink box -->
+    </div>
+
+    <p>This ia a para tag</p>
+    <!-- Paragraph text -->
+
+    <div class="mt-20 flex justify-center items-center mb-20">
+      <!-- Centered container -->
+
+      <div
+        class="flex flex-col gap-10 bg-neutral-200 px-8 py-12 rounded-md shadow-lg"
+      >
+        <!-- Sign-in card -->
+
+        <div class="w-full text-center">
+          <p>Signin</p>
+          <!-- Signin heading -->
+        </div>
+
+        <div>
+          <p class="font-bold">Username</p>
+          <!-- Username label -->
+
+          <input
+            type="text"
+            placeholder="enter username"
+            name=""
+            id="username"
+            class="border rounded-md pl-2"
+          />
+          <!-- Username input -->
+        </div>
+
+        <div>
+          <p class="font-bold">Email</p>
+          <!-- Email label -->
+
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name=""
+            id=""
+            class="border rounded-md pl-2"
+          />
+          <!-- Email input -->
+        </div>
+      </div>
+    </div>
+
+    <div></div>
+    <!-- Empty div -->
+
+    <script src="script.js"></script>
+    <!-- External JavaScript file -->
+  </body>
+</html>
